@@ -1,0 +1,23 @@
+{
+  "name": "dashboard-widgets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm-recursive-install --omit=dev --skip-root --root-dir=./shippers"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjacobs/dashboard-widgets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjacobs/dashboard-widgets/issues"
+  },
+  "homepage": "https://github.com/sjacobs/dashboard-widgets#readme",
+  "devDependencies": {
+    "recursive-install": "^1.4.0"
+  }
+}

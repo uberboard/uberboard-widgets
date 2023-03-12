@@ -1,0 +1,9 @@
+<div>
+    <h1>Builds ({{org}})</h1>
+    {{#each workflows}}
+        <div>
+            <div>{{repo.name}} ({{conclusion}})</div>
+            <div>{{name}} (Last commit: {{commit.committer.name}})</div>
+        </div>
+    {{/each}}
+</div>
