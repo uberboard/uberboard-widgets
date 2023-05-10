@@ -1,0 +1,10 @@
+{
+  "schedule": {
+    "every": "30 minutes"
+  },
+  "widget": {
+    "openweathermap": {
+      "url": "{{OPENWEATHERMAP_API_URL}}"
+    }
+  }
+}

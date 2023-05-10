@@ -1,0 +1,12 @@
+<div>
+    <h1>Build Status</h1>
+    {{#each pipelines}}
+        <ul class="pipeline-list">
+            {{#if state.result.name}}
+                <li>{{this.repository.name}} ({{this.state.result.name}})</li>
+            {{else}}
+                <li>{{this.repository.name}} ({{this.state.stage.name}})</li>
+            {{/if}}
+        </ul>
+    {{/each}}
+</div>

@@ -1,0 +1,10 @@
+{
+  "name": "example-dashboard",
+  "version": "1.0.0",
+  "author": "Steffen Jacobs",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jira-client": "^8.2.2"
+  }
+}

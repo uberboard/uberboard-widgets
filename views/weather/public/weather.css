@@ -1,0 +1,16 @@
+
+.weather .temperature {
+    position: relative;
+    font-size: 350%;
+    font-weight: bold;
+}
+
+.weather .description {
+    position: relative;
+}
+
+.weather > img {
+    position: absolute;
+    bottom: -30px;
+    right: -10px;
+}

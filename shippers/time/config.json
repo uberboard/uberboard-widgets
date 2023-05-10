@@ -1,0 +1,9 @@
+{
+  "schedule": {
+    "every": "second",
+    "synchronous": true
+  },
+  "widget": {
+    "timeZone": "Europe/Berlin"
+  }
+}

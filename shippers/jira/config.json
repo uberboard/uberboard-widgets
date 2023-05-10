@@ -1,0 +1,16 @@
+{
+  "schedule": {
+    "every": "10 minutes"
+  },
+  "enabled": false,
+  "widget": {
+    "jira": {
+      "protocol": "https",
+      "host": "{{JIRA_HOST}}",
+      "username": "{{JIRA_USERNAME}}",
+      "password": "{{JIRA_PASSWORD}}",
+      "apiVersion": "2",
+      "strictSSL": true
+    }
+  }
+}

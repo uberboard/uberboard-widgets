@@ -1,0 +1,17 @@
+{
+  "schedule": {
+    "every": "30 minutes"
+  },
+  "widget": {
+    "apiUrl": "https://api.bitbucket.org/2.0",
+    "auth": {
+      "username": "user",
+      "password": "xx"
+    },
+    "workspace": "{{YOUR_WORKSPACE}}",
+    "repositories": [
+      "my_repo1",
+      "my_repo2"
+    ]
+  }
+}

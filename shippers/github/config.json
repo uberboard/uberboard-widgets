@@ -1,0 +1,12 @@
+{
+  "schedule": {
+    "every": "5 minutes"
+  },
+  "widget": {
+    "showSucceeded": true,
+    "github": {
+      "token": "{{GITHUB_TOKEN}}",
+      "org": "uberboard"
+    }
+  }
+}
